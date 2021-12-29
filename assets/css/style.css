@@ -1,7 +1,12 @@
-header {
-    display: block;
+header nav{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+header{
+    background-color: grey;
+    
+}
 
 div{
     list-style-type: none;
@@ -10,9 +15,18 @@ div{
 
 }
 li a{
+    color: turquoise;
     margin: 0;
-    float: right;
     padding: 30px;
+    float: right;
+}
+
+.column {
+    float: left;
+}
+
+.column.middle{ 
+    display: inline-flex; 
 }
 
 header h2 {
