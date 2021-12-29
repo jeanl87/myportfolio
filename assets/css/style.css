@@ -1,43 +1,42 @@
-header nav{
-    display: flex;
-    flex-wrap: wrap;
+header nav {
+  list-style-type: none;
 }
 
-header{
-    background-color: grey;
-    
+header {
+  background-color: grey;
 }
 
-div{
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-
-}
-li a{
-    color: turquoise;
-    margin: 0;
-    padding: 30px;
-    float: right;
+div {
+  list-style-type: none;
+  margin: 0;
 }
 
+li a {
+  color: turquoise;
+  margin: 0;
+  padding: 30px;
+  list-style-type: none;
+}
+
+.hero img {
+  width: 100%;
+}
 .column {
-    float: left;
+  text-align: left;
 }
 
-.column.middle{ 
-    display: inline-flex; 
+.column-middle {
+  float: center;
 }
 
 header h2 {
-    text-align: left;
+  text-align: left;
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
-
 footer {
-    float: right; 
+  float: center;
 }
