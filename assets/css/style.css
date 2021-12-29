@@ -1,6 +1,29 @@
-header nav ul li {
-    display: incline;
+header {
+    display: block;
 }
-header h1 {
-    display: incline;
+
+
+div{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+
+}
+li a{
+    margin: 0;
+    float: right;
+    padding: 30px;
+}
+
+header h2 {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+}
+
+
+footer {
+    float: right; 
 }
