@@ -29,13 +29,20 @@ li a {
   position: absolute;
   text-align: right;
 }
-.column {
+.column,
+.footer {
   text-align: left;
 }
 
 .column-middle {
   float: center;
   border-left: solid turquoise;
+  margin: 0 auto;
+}
+
+.column,
+.column-middle {
+  display: inline-block;
 }
 
 header h2 {
@@ -47,5 +54,7 @@ p {
 }
 
 footer {
-  float: center;
+  float: left;
+  display: inline;
+  border-right: solid turquoise;
 }
