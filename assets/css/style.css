@@ -1,5 +1,6 @@
 header ul li {
   list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .topnav {
   overflow: hidden;
@@ -20,41 +21,58 @@ li a {
   padding: 30px;
 }
 
-.hero img {
-  display: inline-block;
+.hero-image {
   position: relative;
   width: 100%;
+  flex-wrap: wrap;
 }
-.hero.h1 {
-  position: absolute;
+.hero-text {
   text-align: right;
+  position: relative;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.column,
-.footer {
+.column {
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .column-middle {
-  float: center;
   border-left: solid turquoise;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .column,
 .column-middle {
   display: inline-block;
+}
+
+div img {
+  border: solid green;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
 }
 
 header h2 {
   text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-footer {
+footer h2 {
   float: left;
-  display: inline;
+  display: inline-block;
   border-right: solid turquoise;
+}
+
+footer p {
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
 }
