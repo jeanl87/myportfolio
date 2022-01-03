@@ -49,10 +49,15 @@ li a {
 }
 
 div img {
-  border: solid green;
-  padding: 20px;
-  margin: 20px;
-  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid black;
+  padding: 30px;
+  margin: 30px;
+  max-width: 100%;
+  height: auto;
+  padding-left: 50px;
 }
 
 header h2 {
